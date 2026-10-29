@@ -27,9 +27,9 @@ namespace Menu
 				return;
 			}
 			const float avail = GetContentRegionAvail().x;
-			const float w = std::min(avail, 150.0f);
+			const float w = std::min(avail, 170.0f);
 			SetCursorPosX(GetCursorPosX() + (avail - w) * 0.5f);
-			Image(tex, ImVec2(w, w * 676.0f / 679.0f));
+			Image(tex, ImVec2(w, w));
 			Spacing();
 		}
 
