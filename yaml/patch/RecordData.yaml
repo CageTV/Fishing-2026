@@ -1,0 +1,30 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.41
+ModKey: Fishing2026.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Stats:
+    Version: 1.7
+  Author: CageTV
+  Description: Fishing 2026 - the CC fishing quest's script properties for the merged fishing script (Fancy Fishing + Simple Fishing Overhaul + Line and Lure).
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: FancyFishing.esp
+    FileSize: 0
+  - Master: LLFP.esp
+    FileSize: 0
+  INTV: 1

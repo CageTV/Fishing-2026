@@ -1,0 +1,368 @@
+FormKey: 033A57:ccbgssse001-fish.esm
+EditorID: ccBGSSSE001_FishingSystemQuest
+Version2: 1
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccBGSSSE001_FishingSystemScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingLItemDummyForFanfare
+      Object: 000827:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingLItemPerfectExtra
+      Object: 000828:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingManagerQuest
+      Object: 000801:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarAllowCameraMovement
+      Object: 000835:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarAllowEarlyExit
+      Object: 00083F:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarAllowWeapEquip
+      Object: 000A46:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarAutoReel
+      Object: 000811:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarBiteTimeMult
+      Object: 00082F:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarChanceJunkBase
+      Object: 000821:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarChanceJunkMax
+      Object: 000823:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarChanceJunkRareBase
+      Object: 000822:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarChanceJunkUncommonBase
+      Object: 000825:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarChanceRareBase
+      Object: 000824:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarChanceUncommonBase
+      Object: 000826:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarContinueFishing
+      Object: 000837:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarDoFade
+      Object: 000833:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarKeyExit
+      Object: 00083B:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarMappableKeyControls
+      Object: 000838:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarMinigameType
+      Object: 000800:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarPerfectExtraJunkChance
+      Object: 000809:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarPerfectExtraJunkUseAltList
+      Object: 000829:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarPopReduceChance
+      Object: 000820:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarPopReduceChanceFailed
+      Object: 000832:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarRodAllowCheckBypass
+      Object: 000812:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarTranslateTo
+      Object: 00094A:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: __FancyFishingVarTranslateToSpeed
+      Object: 00094B:FancyFishing.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchPrompt
+      Object: 038BD2:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchSuccessDOF
+      Object: 000DDD:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchSuccessLight
+      Object: 03DCD9:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchSuccessSM
+      Object: 03DCD5:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchTypeLargeFish
+      Object: 000892:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchTypeObject
+      Object: 000893:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_CatchTypeSmallFish
+      Object: 000894:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ErrorNoFishCombat
+      Object: 000847:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ErrorNoFishJumping
+      Object: 000846:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ErrorNoFishMounted
+      Object: 00084A:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ErrorNoFishSitting
+      Object: 000845:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ErrorRodRequired
+      Object: 000848:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FadeToBlackBackImod
+      Object: 000840:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FadeToBlackHoldImod
+      Object: 000842:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FadeToBlackImod
+      Object: 000841:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishCatchDataListArctic
+      Object: 0008D4:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishCatchDataListCave
+      Object: 0008D3:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishCatchDataListTemperateLakeClear
+      Object: 0008C8:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishCatchDataListTemperateLakeRain
+      Object: 0008C9:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishCatchDataListTemperateStreamClear
+      Object: 0008C7:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishCatchDataListTemperateStreamRain
+      Object: 0008C0:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishingDebugEnabled
+      Object: 08A1FA:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_fishingEarlyReel
+      Object: 033A52:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_fishingEarlyReelNibble
+      Object: 03DCD6:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishingFollowerIdleQuest
+      Object: 0D1017:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_fishingHooked
+      Object: 033A53:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_fishingLostCatch
+      Object: 033A51:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishingRodFXActivators
+      Object: 000B84:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishingRods
+      Object: 000843:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishingTutorial
+      Object: 042DDD:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_FishingTutorialDisplayed
+      Object: 042DDE:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_HasCaughtFishAtLeastOnce
+      Object: 201818:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ITMFishUpSM
+      Object: 000895:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_JunkCatchDataListDefault
+      Object: 0008DE:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_NavBlockerRef
+      Object: 0E549B:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_OneTimeCaughtList
+      Object: 038B7A:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_RareCatchSM
+      Object: 000899:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ReelLinePrompt
+      Object: 00084C:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ShowedCatchPromptThisSession
+      Object: 038BD4:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_ShowedReelPromptThisSession
+      Object: 038BD3:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_Start_MQ2
+      Object: 0009DB:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE001_SummonsRain
+      Object: 0EA5CD:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueQuest
+      Object: 033A55:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DogAlias
+      Object: 0D1017:ccbgssse001-fish.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowerAlias
+      Object: 0D1017:ccbgssse001-fish.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameHour
+      Object: 000038:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCowerExit
+      Object: 0EF94D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleCoweringLoose
+      Object: 0EFC68:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleSearchingChest
+      Object: 06FF14:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleStop_Loose
+      Object: 10D9EE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MoveDetectRef
+      Object: 038BCF:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReelLineRef
+      Object: 000DDA:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkyrimStormRain
+      Object: 0C8220:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Torch01
+      Object: 01D4EC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: XMarker
+      Object: 00003B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_CastingTimeRed01
+      Object: 00001F:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_CastingTimeRed02
+      Object: 000022:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_CastingTimeRed03
+      Object: 000023:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_CommonFishBonus
+      Object: 00002F:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_CommonJunkBonus
+      Object: 00000E:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_FishBonusMult01
+      Object: 000029:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_FishBonusMult02
+      Object: 00002A:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_FishBonusMult03
+      Object: 00002B:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_FishSpell_Perk01
+      Object: 000016:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_FishSpellEffect
+      Object: 000019:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_JunkBonusMult01
+      Object: 000026:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_JunkBonusMult02
+      Object: 000027:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_JunkBonusMult03
+      Object: 000028:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_JunkSpell_Perk01
+      Object: 000010:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_JunkSpellEffect
+      Object: 000011:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_LessCastingTime_Perk01
+      Object: 00001E:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_LessCastingTime_Perk02
+      Object: 000020:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_LessCastingTime_Perk03
+      Object: 000021:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreCatch_Perk01
+      Object: 000003:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreRarityFish_Perk01
+      Object: 00002C:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreRarityFish_Perk02
+      Object: 00002D:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreRarityFish_Perk03
+      Object: 00002E:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreRarityJunk_Perk01
+      Object: 00000D:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreRarityJunk_Perk02
+      Object: 000024:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_MoreRarityJunk_Perk03
+      Object: 000025:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_SkillAdvanceMult
+      Object: 000037:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_UncommonFishBonus
+      Object: 000030:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _LLFP_UncommonJunkBonus
+      Object: 00000F:LLFP.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QuestScript
+      Object: 00000A:LLFP.esp
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 033A57:ccbgssse001-fish.esm
+      Alias: 0
+    Scripts:
+    - Name: ccBGSSSE001_PlayerHitScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FishingSystem
+        Object: 033A57:ccbgssse001-fish.esm
+Name:
+  TargetLanguage: English
+  Value: Fishing System Quest
+Flags:
+- StartGameEnabled
+- 16
+- RunOnce
+QuestFormVersion: 65
+NextAliasID: 1
+Aliases:
+- Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: null

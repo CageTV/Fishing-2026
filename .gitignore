@@ -1,0 +1,15 @@
+build/
+out/
+pex/
+decomp/
+tmp_c/
+backups/
+plugin/build/
+plugin/build-ds.log
+__pycache__/
+*.log
+# Spriggit exports of the plugins the patch is built from (other authors' plugins); only the patch itself is kept
+yaml/fancy/
+yaml/llfp/
+yaml/sfo/
+package/

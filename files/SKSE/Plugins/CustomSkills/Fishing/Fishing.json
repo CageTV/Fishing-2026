@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/main/docs/schema/skill.json",
+  "id": "fishing",
+  "name": "Angler",
+  "description": "The tranquil art of casting a line and reeling in the catch. A skilled angler can hook rarer fish and uncover hidden treasures beneath the water's surface, reeling them in with ease.",
+  "level": "LLFP.esp|D63",
+  "ratio": "LLFP.esp|D65",
+  "legendary": "LLFP.esp|002",
+  "showLevelup": "LLFP.esp|D64",
+  "experienceFormula": {
+    "useMult": 1.0,
+    "useOffset": 0.0,
+    "improveMult": 1.0,
+    "improveOffset": 0.0,
+    "enableXPPerRank": true
+  },
+  "nodes": [
+    {
+      "id": "DetectBiome",
+      "perk": "LLFP.esp|009",
+      "x": 0,
+      "y": -0.3,
+      "links": [ "BetterPrice" ]
+    },
+    {
+      "id": "BetterPrice",
+      "perk": "LLFP.esp|00B",
+      "x": 2.5,
+      "y": 0.5,
+      "links": [ "LessCastingTime" ]
+    },
+    {
+      "id": "LessCastingTime",
+      "perk": "LLFP.esp|01E",
+      "x": 1,
+      "y": 2,
+      "links": [ "MoreRarityFish", "MoreRarityJunk" ]
+    },
+    {
+      "id": "MoreRarityFish",
+      "perk": "LLFP.esp|02C",
+      "x": 0,
+      "y": 2.5,
+      "links": [ "FishSpell" ]
+    },
+    {
+      "id": "MoreRarityJunk",
+      "perk": "LLFP.esp|00D",
+      "x": -1.1,
+      "y": 2.5,
+      "links": [ "JunkSpell" ]
+    },
+    {
+      "id": "FishSpell",
+      "perk": "LLFP.esp|016",
+      "x": -0.6,
+      "y": 2.9,
+      "links": [ "MoreCatch" ]
+    },
+    {
+      "id": "JunkSpell",
+      "perk": "LLFP.esp|010",
+      "x": -1.6,
+      "y": 2.9,
+      "links": [ "MoreCatch" ]
+    },
+    {
+      "id": "MoreCatch",
+      "perk": "LLFP.esp|003",
+      "x": -5,
+      "y": 3.5
+    }
+  ]
+}
